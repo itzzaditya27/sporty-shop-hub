@@ -114,7 +114,7 @@ function Index() {
             <img src={hero} alt="Runner on a coastal path at golden hour" width={912} height={1104} className="relative rounded-[24px] aspect-[9/11] w-full object-cover" />
             <div className="absolute -bottom-5 left-6 rounded-xl bg-panel ring-1 ring-ink/5 px-4 py-3 animate-rise">
               <p className="text-[11px] uppercase tracking-[0.15em] text-ink/50">On the shelf</p>
-              <p className="text-sm font-semibold text-moss mt-0.5">{products[0].name} · {products[0].stock} left</p>
+              <p className="text-sm font-semibold text-moss mt-0.5">{products[0]?.name} · {products[0]?.stock} left</p>
             </div>
           </div>
         </div>
